@@ -59,7 +59,7 @@ def draw(canvas, width, height):
                             height // 2 + 30, fill='LemonChiffon2', width=0)
     canvas.create_rectangle(0, height // 2 + 50, width,
                             height // 2 + 140, fill='LemonChiffon2', width=0)
-    canvas.create_text(5, height//2 - 235, text = "reference image size: %s" % refSize, anchor=W)
+    canvas.create_text(5, height//2 - 235, text = "reference image size (inches): %s" % refSize, anchor=W)
     canvas.create_text(5, height // 2 - 125, text="food: %s" % food, anchor=W)
     canvas.create_text(5, height // 2 - 15, text="image1: %s" % filename1, anchor=W)
     canvas.create_text(5, height // 2 + 95, text="image2: %s" % filename2, anchor=W)
