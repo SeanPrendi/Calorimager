@@ -1,4 +1,4 @@
-from ImageDimensions import getAllDims
+from ImgDimension import getAllDims
 import math
 
 def calcVolume(img1, img2, width):
